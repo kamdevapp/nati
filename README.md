@@ -22,6 +22,8 @@ Packages are in **[Releases](https://github.com/kamdevapp/nati/releases/latest)*
 | Linux (x86-64) | `Nati-<version>-x86_64.AppImage` | ✅ available |
 | Windows | installer | later |
 | Android, Android TV / Google TV | APK | later |
+| macOS | app | later |
+| iOS / iPadOS | App Store | later |
 
 **Linux:** download the AppImage, make it executable and run it (no installation, works on most
 distributions from Ubuntu 22.04 / Debian 12 / Fedora 38 on):
@@ -64,7 +66,7 @@ Bez reklam, bez abonamentu, bez śledzenia.
 
 ### Pobierz
 Paczki są w zakładce **[Releases](https://github.com/kamdevapp/nati/releases/latest)**. Dziś: **Linux**
-(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji). Windows i Android – później.
+(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji). Windows, Android, macOS i iOS / iPadOS – później.
 
 ### Twoja chmura
 Nati gra z **Nati Cloud** – Twojego serwera muzyki. Przy pierwszym uruchomieniu wybierasz:
