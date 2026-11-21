@@ -15,17 +15,27 @@ No ads, no subscription, no tracking.
 - 🎤 **Listening made enjoyable** – karaoke lyrics, equalizer and effects, skins, TV mode and full-screen visuals
 
 ## Download
-Ready-to-install packages are in **[Releases](https://github.com/kamdevapp/nati/releases)**:
+Packages are in **[Releases](https://github.com/kamdevapp/nati/releases/latest)**:
 
-| System | Package |
-|---|---|
-| Linux | AppImage / Flatpak |
-| Windows | .exe installer |
-| Android | APK |
-| Android TV / Google TV | APK (same as phone) |
-| Nati Cloud (server) | Docker image |
+| System | Package | |
+|---|---|---|
+| Linux (x86-64) | `Nati-<version>-x86_64.AppImage` | ✅ available |
+| Windows | installer | later |
+| Android, Android TV / Google TV | APK | later |
 
-*First release coming soon.*
+**Linux:** download the AppImage, make it executable and run it (no installation, works on most
+distributions from Ubuntu 22.04 / Debian 12 / Fedora 38 on):
+```bash
+chmod +x Nati-*-x86_64.AppImage && ./Nati-*-x86_64.AppImage
+```
+
+## Your cloud
+Nati plays from **Nati Cloud** – your own music server. On the first start the app offers:
+- **Cloud on this computer** – Nati sets it up here for you, no Docker, no configuration. It keeps
+  running when the window is closed, so everyone at home can listen on their devices.
+- **Connect to a cloud** – a cloud on your home server, NAS or Raspberry Pi. Install it with
+  `git clone https://github.com/kamdevapp/nati-cloud && cd nati-cloud && ./chmura/install.sh`
+  – see **[kamdevapp/nati-cloud](https://github.com/kamdevapp/nati-cloud)** (open source, GPL-3.0).
 
 ## Bugs and ideas
 Something doesn't work or something's missing? Report it in **[Issues](https://github.com/kamdevapp/nati/issues)**.
@@ -33,7 +43,7 @@ Something doesn't work or something's missing? Report it in **[Issues](https://g
 ## Support Nati
 Nati is free and will stay that way. If you find it useful, you can buy the author a coffee ☕
 
-- Ko-fi (card, PayPal – worldwide): https://ko-fi.com/kamdevapp
+- Ko-fi (card, Apple Pay, Google Pay – worldwide): https://ko-fi.com/kamdevapp
 - BuyCoffee.to (BLIK, bank transfer – Poland): https://buycoffee.to/kamdevapp
 
 ---
@@ -53,8 +63,16 @@ Bez reklam, bez abonamentu, bez śledzenia.
 - 🎤 **Słuchanie z przyjemnością** – teksty z karaoke, korektor i efekty, skórki, tryb TV i pełnoekranowe tła
 
 ### Pobierz
-Gotowe paczki (Linux, Windows, Android, Android TV / Google TV, serwer w Dockerze) znajdziesz
-w zakładce **[Releases](https://github.com/kamdevapp/nati/releases)**. *Pierwsze wydanie wkrótce.*
+Paczki są w zakładce **[Releases](https://github.com/kamdevapp/nati/releases/latest)**. Dziś: **Linux**
+(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji). Windows i Android – później.
+
+### Twoja chmura
+Nati gra z **Nati Cloud** – Twojego serwera muzyki. Przy pierwszym uruchomieniu wybierasz:
+- **Chmura na tym komputerze** – Nati postawi ją u Ciebie sama, bez Dockera i konfiguracji; działa też
+  przy zamkniętym oknie, więc domownicy słuchają na swoich urządzeniach,
+- **Połącz z chmurą** – chmura na serwerze domowym, NAS-ie albo Raspberry Pi:
+  `git clone https://github.com/kamdevapp/nati-cloud && cd nati-cloud && ./chmura/instaluj.sh`
+  – szczegóły w **[kamdevapp/nati-cloud](https://github.com/kamdevapp/nati-cloud)** (open source, GPL-3.0).
 
 ### Błędy i pomysły
 Coś nie działa albo czegoś brakuje? Zgłoś to w zakładce **[Issues](https://github.com/kamdevapp/nati/issues)**.
@@ -63,4 +81,4 @@ Coś nie działa albo czegoś brakuje? Zgłoś to w zakładce **[Issues](https:/
 Nati jest darmowe i takie zostanie. Jeśli Ci się przydaje, możesz postawić twórcy kawę ☕
 
 - BuyCoffee.to (BLIK, przelew – z Polski): https://buycoffee.to/kamdevapp
-- Ko-fi (karta, PayPal – z całego świata): https://ko-fi.com/kamdevapp
+- Ko-fi (karta, Apple Pay, Google Pay – z całego świata): https://ko-fi.com/kamdevapp
