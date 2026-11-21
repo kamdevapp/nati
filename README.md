@@ -40,7 +40,9 @@ Nati plays from **Nati Cloud** – your own music server. On the first start the
   – see **[kamdevapp/nati-cloud](https://github.com/kamdevapp/nati-cloud)** (open source, GPL-3.0).
 
 ## Bugs and ideas
-Something doesn't work or something's missing? Report it in **[Issues](https://github.com/kamdevapp/nati/issues)**.
+Something doesn't work or something's missing? Report it in **[Issues](https://github.com/kamdevapp/nati/issues/new/choose)**
+(bug or idea – the form guides you). Questions, ideas to discuss and polls on what comes next:
+**[Discussions](https://github.com/kamdevapp/nati/discussions)**.
 
 ## Support Nati
 Nati is free and will stay that way. If you find it useful, you can buy the author a coffee ☕
@@ -77,7 +79,9 @@ Nati gra z **Nati Cloud** – Twojego serwera muzyki. Przy pierwszym uruchomieni
   – szczegóły w **[kamdevapp/nati-cloud](https://github.com/kamdevapp/nati-cloud)** (open source, GPL-3.0).
 
 ### Błędy i pomysły
-Coś nie działa albo czegoś brakuje? Zgłoś to w zakładce **[Issues](https://github.com/kamdevapp/nati/issues)**.
+Coś nie działa albo czegoś brakuje? Zgłoś to w zakładce **[Issues](https://github.com/kamdevapp/nati/issues/new/choose)**
+(błąd albo pomysł – formularz poprowadzi Cię krok po kroku). Pytania, pomysły do omówienia i ankiety o tym,
+co dalej: **[Discussions](https://github.com/kamdevapp/nati/discussions)**.
 
 ### Wesprzyj Nati
 Nati jest darmowe i takie zostanie. Jeśli Ci się przydaje, możesz postawić twórcy kawę ☕
