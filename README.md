@@ -20,7 +20,7 @@ Packages are in **[Releases](https://github.com/kamdevapp/nati/releases/latest)*
 | System | Package | |
 |---|---|---|
 | Linux (x86-64) | `Nati-<version>-x86_64.AppImage` | ✅ available |
-| Windows | installer | later |
+| Windows 10 / 11 (x64) | `Nati-<version>-windows-x64-setup.exe` (or `…-portable.zip`) | ✅ available |
 | Android, Android TV / Google TV | APK | later |
 | macOS | app | later |
 | iOS / iPadOS | App Store | later |
@@ -30,6 +30,10 @@ distributions from Ubuntu 22.04 / Debian 12 / Fedora 38 on):
 ```bash
 chmod +x Nati-*-x86_64.AppImage && ./Nati-*-x86_64.AppImage
 ```
+
+**Windows:** download the installer and run it. Windows may warn “Windows protected your PC” (Nati is not
+signed with a paid certificate yet) – click *More info* → *Run anyway*. On monitors with a high refresh rate
+Nati limits itself to 60 frames per second by default (*Compatibility mode* in Settings → Appearance).
 
 ## Your cloud
 Nati plays from **Nati Cloud** – your own music server. On the first start the app offers:
@@ -68,7 +72,9 @@ Bez reklam, bez abonamentu, bez śledzenia.
 
 ### Pobierz
 Paczki są w zakładce **[Releases](https://github.com/kamdevapp/nati/releases/latest)**. Dziś: **Linux**
-(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji). Windows, Android, macOS i iOS / iPadOS – później.
+(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji) i **Windows 10 / 11**
+(`Nati-<wersja>-windows-x64-setup.exe` – jeśli Windows pokaże „System Windows ochronił ten komputer”,
+kliknij „Więcej informacji” → „Uruchom mimo to”). Android, macOS i iOS / iPadOS – później.
 
 ### Twoja chmura
 Nati gra z **Nati Cloud** – Twojego serwera muzyki. Przy pierwszym uruchomieniu wybierasz:
