@@ -19,7 +19,7 @@ Packages are in **[Releases](https://github.com/kamdevapp/nati/releases/latest)*
 
 | System | Package | |
 |---|---|---|
-| Linux (x86-64) | `Nati-<version>-x86_64.AppImage` | ✅ available |
+| Linux (x86-64) | `Nati-<version>-x86_64.AppImage` or `Nati-<version>-x86_64.flatpak` | ✅ available |
 | Windows 10 / 11 (x64) | `Nati-<version>-windows-x64-setup.exe` (or `…-portable.zip`) | ✅ available |
 | Android 7+ (phones) | `Nati-<version>-android-arm64.apk` | ✅ available |
 | Android TV / Google TV, older phones | `Nati-<version>-android-armv7.apk` | ✅ available |
@@ -31,6 +31,9 @@ distributions from Ubuntu 22.04 / Debian 12 / Fedora 38 on):
 ```bash
 chmod +x Nati-*-x86_64.AppImage && ./Nati-*-x86_64.AppImage
 ```
+
+**Linux – Flatpak:** `flatpak install --user Nati-*-x86_64.flatpak` (or open it in GNOME Software / KDE Discover),
+then start Nati from the menu or with `flatpak run app.nati.nati`. The runtime downloads itself from Flathub.
 
 **Windows:** download the installer and run it. Windows may warn “Windows protected your PC” (Nati is not
 signed with a paid certificate yet) – click *More info* → *Run anyway*. On monitors with a high refresh rate
@@ -52,6 +55,11 @@ Nati plays from **Nati Cloud** – your own music server. On the first start the
 - **Connect to a cloud** – a cloud on your home server, NAS or Raspberry Pi. Install it with
   `git clone https://github.com/kamdevapp/nati-cloud && cd nati-cloud && ./chmura/install.sh`
   – see **[kamdevapp/nati-cloud](https://github.com/kamdevapp/nati-cloud)** (open source, GPL-3.0).
+
+**Nati Cloud on its own server:** the cloud doesn't need the app. Download it from
+[kamdevapp/nati-cloud](https://github.com/kamdevapp/nati-cloud) (or `nati-chmura-<version>.tar.gz` from Releases)
+and run it on any Linux server – with Docker or as a service. Then connect to it from Nati on all your
+computers, phones and TVs.
 
 ## Bugs and ideas
 Something doesn't work or something's missing? Report it in **[Issues](https://github.com/kamdevapp/nati/issues/new/choose)**
@@ -82,7 +90,8 @@ Bez reklam, bez abonamentu, bez śledzenia.
 
 ### Pobierz
 Paczki są w zakładce **[Releases](https://github.com/kamdevapp/nati/releases/latest)**. Dziś: **Linux**
-(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji) i **Windows 10 / 11**
+(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji – albo Flatpak:
+`flatpak install --user Nati-<wersja>-x86_64.flatpak`, potem Nati z menu albo `flatpak run app.nati.nati`) i **Windows 10 / 11**
 (`Nati-<wersja>-windows-x64-setup.exe` – jeśli Windows pokaże „System Windows ochronił ten komputer”,
 kliknij „Więcej informacji” → „Uruchom mimo to”), **Android** i **Android TV / Google TV**
 (APK – niżej). macOS i iOS / iPadOS – później.
@@ -102,6 +111,11 @@ Nati gra z **Nati Cloud** – Twojego serwera muzyki. Przy pierwszym uruchomieni
 - **Połącz z chmurą** – chmura na serwerze domowym, NAS-ie albo Raspberry Pi:
   `git clone https://github.com/kamdevapp/nati-cloud && cd nati-cloud && ./chmura/instaluj.sh`
   – szczegóły w **[kamdevapp/nati-cloud](https://github.com/kamdevapp/nati-cloud)** (open source, GPL-3.0).
+
+**Nati Cloud na osobnym serwerze:** chmura nie potrzebuje aplikacji. Pobierz ją z
+[kamdevapp/nati-cloud](https://github.com/kamdevapp/nati-cloud) (albo `nati-chmura-<wersja>.tar.gz` z Releases)
+i postaw na dowolnym serwerze z Linuksem – przez Dockera albo jako usługę. Potem łączysz się z nią z Nati
+na wszystkich komputerach, telefonach i telewizorach.
 
 ### Błędy i pomysły
 Coś nie działa albo czegoś brakuje? Zgłoś to w zakładce **[Issues](https://github.com/kamdevapp/nati/issues/new/choose)**
