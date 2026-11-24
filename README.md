@@ -21,7 +21,8 @@ Packages are in **[Releases](https://github.com/kamdevapp/nati/releases/latest)*
 |---|---|---|
 | Linux (x86-64) | `Nati-<version>-x86_64.AppImage` | ✅ available |
 | Windows 10 / 11 (x64) | `Nati-<version>-windows-x64-setup.exe` (or `…-portable.zip`) | ✅ available |
-| Android, Android TV / Google TV | APK | later |
+| Android 7+ (phones) | `Nati-<version>-android-arm64.apk` | ✅ available |
+| Android TV / Google TV, older phones | `Nati-<version>-android-armv7.apk` | ✅ available |
 | macOS | app | later |
 | iOS / iPadOS | App Store | later |
 
@@ -34,6 +35,15 @@ chmod +x Nati-*-x86_64.AppImage && ./Nati-*-x86_64.AppImage
 **Windows:** download the installer and run it. Windows may warn “Windows protected your PC” (Nati is not
 signed with a paid certificate yet) – click *More info* → *Run anyway*. On monitors with a high refresh rate
 Nati limits itself to 60 frames per second by default (*Compatibility mode* in Settings → Appearance).
+
+**Android:** download the APK on your phone and open it – Android asks to allow installing apps from your
+browser or file manager. Most phones from the last years need `android-arm64`; if it says the app isn't
+compatible, take `android-armv7`. Nati connects to your cloud (it can't host one itself on a phone).
+
+**Android TV / Google TV:** most TVs need `android-armv7`. Easiest way to get it there: the
+*Downloader* app on the TV (type the address of the APK from this page) or *Send Files to TV* from your
+phone. Nati starts right in TV mode – controlled with the remote, with *Who's listening?* for the whole
+family and *Sign in with phone*.
 
 ## Your cloud
 Nati plays from **Nati Cloud** – your own music server. On the first start the app offers:
@@ -74,7 +84,16 @@ Bez reklam, bez abonamentu, bez śledzenia.
 Paczki są w zakładce **[Releases](https://github.com/kamdevapp/nati/releases/latest)**. Dziś: **Linux**
 (`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji) i **Windows 10 / 11**
 (`Nati-<wersja>-windows-x64-setup.exe` – jeśli Windows pokaże „System Windows ochronił ten komputer”,
-kliknij „Więcej informacji” → „Uruchom mimo to”). Android, macOS i iOS / iPadOS – później.
+kliknij „Więcej informacji” → „Uruchom mimo to”), **Android** i **Android TV / Google TV**
+(APK – niżej). macOS i iOS / iPadOS – później.
+
+**Android:** pobierz APK na telefonie i otwórz go – Android zapyta o zgodę na instalowanie aplikacji
+z przeglądarki albo menedżera plików. Większość telefonów z ostatnich lat potrzebuje `android-arm64`; jeśli
+pojawi się „aplikacja niezgodna”, weź `android-armv7`. Na telefonie Nati łączy się z chmurą (sam jej nie stawia).
+
+**Android TV / Google TV:** większość telewizorów potrzebuje `android-armv7`. Najprościej przez aplikację
+*Downloader* na TV (wpisz adres pliku APK z tej strony) albo *Send Files to TV* z telefonu. Nati startuje
+od razu w trybie TV – sterowanie pilotem, „Kto słucha?” dla całej rodziny i „Zaloguj telefonem”.
 
 ### Twoja chmura
 Nati gra z **Nati Cloud** – Twojego serwera muzyki. Przy pierwszym uruchomieniu wybierasz:
