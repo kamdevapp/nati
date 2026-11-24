@@ -8,6 +8,17 @@ No ads, no subscription, no tracking.
 
 *[🇵🇱 Po polsku niżej](#-po-polsku)*
 
+## Screenshots
+| | |
+|---|---|
+| ![Home](screenshots/home.png) | ![Album](screenshots/album.png) |
+| ![Now playing](screenshots/now-playing.png) | ![Artists](screenshots/artists.png) |
+| ![TV mode – home](screenshots/tv-home.png) | ![TV mode – albums](screenshots/tv-albums.png) |
+| ![TV mode – now playing](screenshots/tv-player.png) | |
+
+<sub>Screenshots were made with a **demo cloud**: the artists, albums and titles are made up and the artwork is
+generated – your own library shows your music.</sub>
+
 ## Features
 - 👨‍👩‍👧 **For the whole family** – everyone has their own account, playlists, favourites and listening history
 - 📱 **Always with you** – listen at home and away, and save favourites on your device for offline trips
@@ -81,6 +92,10 @@ w domu, w drodze, na każdym urządzeniu.
 
 Muzyka leży u Ciebie – na komputerze albo NAS-ie – a nie na cudzych serwerach.
 Bez reklam, bez abonamentu, bez śledzenia.
+
+### Zrzuty ekranu
+Zrzuty (wyżej) zrobiono na **chmurze demo**: wykonawcy, albumy i tytuły są zmyślone, a okładki wygenerowane –
+w Twojej chmurze zobaczysz swoją muzykę.
 
 ### Co potrafi
 - 👨‍👩‍👧 **Dla całej rodziny** – każdy domownik ma swoje konto, playlisty, ulubione i historię słuchania
