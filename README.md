@@ -43,8 +43,11 @@ distributions from Ubuntu 22.04 / Debian 12 / Fedora 38 on):
 chmod +x Nati-*-x86_64.AppImage && ./Nati-*-x86_64.AppImage
 ```
 
-**Linux – Flatpak:** `flatpak install --user Nati-*-x86_64.flatpak` (or open it in GNOME Software / KDE Discover),
-then start Nati from the menu or with `flatpak run app.nati.nati`. The runtime downloads itself from Flathub.
+**Linux – Flatpak (recommended):** go to **[kamdevapp.github.io/flatpak](https://kamdevapp.github.io/flatpak/)**
+and click *Install Nati* – GNOME Software or KDE Discover opens and installs it. From then on Nati updates together
+with your system and you can find it in the app store. In a terminal:
+`flatpak install --user https://kamdevapp.github.io/flatpak/nati.flatpakref`. The single-file
+`Nati-<version>-x86_64.flatpak` from Releases works too.
 
 **Windows:** download the installer and run it. Windows may warn “Windows protected your PC” (Nati is not
 signed with a paid certificate yet) – click *More info* → *Run anyway*. On monitors with a high refresh rate
@@ -105,8 +108,9 @@ w Twojej chmurze zobaczysz swoją muzykę.
 
 ### Pobierz
 Paczki są w zakładce **[Releases](https://github.com/kamdevapp/nati/releases/latest)**. Dziś: **Linux**
-(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji – albo Flatpak:
-`flatpak install --user Nati-<wersja>-x86_64.flatpak`, potem Nati z menu albo `flatpak run app.nati.nati`) i **Windows 10 / 11**
+(`Nati-<wersja>-x86_64.AppImage` – pobierz, `chmod +x` i uruchom, bez instalacji – albo – polecane – Flatpak:
+wejdź na **[kamdevapp.github.io/flatpak](https://kamdevapp.github.io/flatpak/)** i kliknij „Zainstaluj Nati”; otworzy się
+GNOME Software albo KDE Discover, a potem Nati aktualizuje się razem z systemem i jest w wyszukiwarce sklepu) i **Windows 10 / 11**
 (`Nati-<wersja>-windows-x64-setup.exe` – jeśli Windows pokaże „System Windows ochronił ten komputer”,
 kliknij „Więcej informacji” → „Uruchom mimo to”), **Android** i **Android TV / Google TV**
 (APK – niżej). macOS i iOS / iPadOS – później.
